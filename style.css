@@ -1,0 +1,62 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+}
+.header {
+    display: flex;
+    justify-content: space-between; /* spread logo and nav links */
+    padding: 10px 40px; /* padding: top+bot, left+right */
+    background-color: #ffffffa4;
+}
+.site-logo {
+    background-color: rgb(106, 89, 42); /* Grey block for logo */
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none; /* Remove underline from links */
+    color: #00710b;
+    font-weight: bold;
+}
+.hero-section {
+    background-color: rgb(211, 202, 162); /* Light grey area for the background design */
+    padding: 80px 80px;
+    text-align: center;
+}
+.company-title {
+    font-size: 4em; /*em -> relative to the font size of the parent */
+    color: #333333;
+    margin-bottom: 50px;
+}
+.image-placeholder {
+    background-color: #333333;
+    display: flex;
+    align-items: center; /* center the text vertically */
+    padding: 10px 20px; /* padding around the text */
+    justify-content: center; /* center the text horizontally */
+    /* color: white; */
+}
+.content-section {
+    padding: 40px 10%; /* % for left and right to be responsive */
+    text-align: center;
+    line-height: 1.6;
+    color: black;
+}
+.product-list {
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+.product-item {
+    flex: 1;
+    background-color: rgb(236, 228, 199);
+    padding: 20px;
+}
+.contact-section {
+    display: flex;
+    background-color: rgb(211, 202, 162); /* Light grey area for the background design */
+    padding: 100px 80px;
+    gap: 20px;
+}
